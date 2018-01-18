@@ -2847,7 +2847,7 @@ var freeboard = (function()
 
 			// Check to see if we have a query param called load. If so, we should load that dashboard initially
 			var freeboardLocation = getParameterByName("load");
-
+			
 			if(freeboardLocation != "")
 			{
 				$.ajax({
